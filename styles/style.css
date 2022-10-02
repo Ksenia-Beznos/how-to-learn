@@ -22,8 +22,6 @@
   position: relative;
 }
 
-/* выше установили ограничения для секции */
-
 .logo {
   width: 228px;
   height: 32px;
@@ -53,7 +51,8 @@
   position: absolute;
   left: 64px;
   bottom: 30px;
-  width: 390px;
+  max-width: 388px;
+  width: 100%;
   font-size: 18px;
   font-weight: normal;
   line-height: 25px;
@@ -66,8 +65,6 @@
   color: #2f80ed;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-
 .header__square-pic {
   background-color: #2f80ed;
   width: 568px;
@@ -77,32 +74,28 @@
   right: 0;
 }
 
-img {
-position: absolute;
-right: 0;
-bottom: 0;
-width: 765px;
-height: 608px;
-background-size: cover;
-z-index: 1;
-}
-
-.content {
-  display:flex;
-  justify-content: center;
-  padding: 100px 0;
+.header__main-illustration {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 765px;
+  height: 608px;
+  background-size: cover;
+  z-index: 1;
 }
 
 .discription {
   display:flex;
-  width: 80%;
+  justify-content: center;
 }
 
 .two-columns {
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   font-weight: normal;
-  margin: 0 auto;
+  padding-top: 100px;
+  width: 80%;
 }
 
 .two-columns__brief {
@@ -111,35 +104,161 @@ z-index: 1;
   line-height: 1.2;
   font-weight: normal;
   width: 175px;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .two-columns__main-text {
-  display: flex;
-  flex-direction: column;
+  margin: 0;
   width: 80%;
   min-width: 784px;
-  margin: 0 auto;
 }
 
 .two-columns__paragraph {
+  margin: 0 0 30px 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
   margin: 0 0 30px 0;
 }
 
-.two_columns__span-accent {
-line-height: 34px;
-font-size: 24px;
-font-weight: 600;
+.two-columns__paragraph:last-child {
+  margin-bottom: 0;
 }
 
-/* и элемента с модификатором вида ключ-значение */
+.two_columns__span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.digits {
+  padding: 100px 0;
+}
+
+.section-title {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  margin: 0 auto 20px;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.section-subtitle {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.table {
+  width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 60px;
+  margin: auto;
+}
+
+.table__cell {
+  width: 250px;
+}
+
+.table__cell_indent {
+  margin-bottom: 60px;
+}
+
+.table__heading {
+  margin: 0 auto 20px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.table__text {
+  margin: 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.table__text_indent {
+  margin-top: 20px;
+}
+
+.feynman {
+  position: relative;
+  height: 890px;
+  background-image: url(../images/feynman.png);
+  background-size: 867px 637px;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-color: #f2f2f2;
+}
+
+.feynman__title {
+  width: 648px;
+  padding-top: 100px;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+  margin: auto;
+  text-align: center;
+}
+
+.feynman__subtitle {
+  text-align: center;
+  line-height: 70px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.feynman__link {
+  color: #2f80ed;
+  text-decoration: none;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  position: absolute;
+  top: 50%;
+  right: 48px;
+}
+
+.kaufman {
+  overflow: hidden;
+  position: relative;
+  padding: 90px 0;
+  background-color: #1f1f1f;
+}
+
+.kaufman__triangle {
+  width: 877px;
+  height: 877px;
+  position: absolute;
+  top: 0;
+  right: -210px;
+  z-index: 1;
+}
+
+.section-title__theme_dark {
+  color: white;
+}
+
+.section-subtitle__theme_dark {
+  color: white;
+}
 
 .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
+  z-index: 2;
+}
+
+.table_theme_dark {
+  padding-top: 0;
 }
