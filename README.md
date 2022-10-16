@@ -34,7 +34,7 @@ ____
 ### :heavy_check_mark: _Анимация элемента_
 
 ```css
-@keyframes figure-rotation {
+@keyframes rotation {
   from {
     transform: rotate(0deg);
   }
@@ -42,8 +42,8 @@ ____
     transform: rotate(360deg);
   }
 }
-.figure-rotation {
-  animation-name: figure-rotation;
+.rotation {
+  animation-name: rotation;
   animation-duration: 20s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
@@ -54,10 +54,8 @@ ____
 
 ```html
 <div class="video__iframes">
-
-  <div class="video__iframe"><iframe width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-  <div class="video__iframe"><iframe width="515" height="315" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-  
+  <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 ```
 
