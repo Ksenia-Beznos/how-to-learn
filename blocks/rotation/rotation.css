@@ -1,4 +1,4 @@
-@keyframes figure-rotation {
+@keyframes rotation {
   from {
     transform: rotate(0deg);
   }
@@ -7,8 +7,8 @@
   }
 }
 
-.figure-rotation {
-  animation-name: figure-rotation;
+.rotation {
+  animation-name: rotation;
   animation-duration: 20s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;

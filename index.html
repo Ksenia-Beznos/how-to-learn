@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./vendor/normalize.css">
-  <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="/pages/index.css">
   <title>Научиться учиться</title>
 </head>
 <body>
@@ -16,7 +16,7 @@
       <h1 class="header__title">Научиться учиться</h1>
       <img class="header__main-illustration" src="./images/header-image.png" alt="Яндекс Практикум">
       <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? <a class="header__link" href="#">Узнать &rarr;</a></p>
-        <div class="header__square-pic figure-rotation"></div>
+        <div class="header__square-pic rotation"></div>
     </header>
 
     <main class="content">
@@ -75,8 +75,8 @@
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
 
         <div class="video__iframes">
-          <div class="video__iframe"><iframe width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-          <div class="video__iframe"><iframe width="515" height="315" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </section>
 
@@ -150,7 +150,7 @@
           <p class="khan__author">Салман Хан</p>
           <h3 class="khan__title">Весь мир — школа</h3>
 
-          <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
+          <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</blockquote>
           <p class="khan__quote-author">Джордж Лукас</p>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
 
@@ -164,7 +164,7 @@
       <section class="kaufman">
         <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
         <p class="section-subtitle section-subtitle_theme_dark">От Джоша Кауфмана</p>
-        <div class="kaufman__triangle figure-rotation"></div>
+        <div class="kaufman__triangle rotation"></div>
 
         <ul class="table table_theme_dark">
           <li class="table__cell table__cell_theme_dark">
@@ -225,19 +225,19 @@
 
         <ul class="resources__logo-zone">
           <li><a class="resources__logo-link" href="#">
-              <img class="resources__logo" src="/images/logo/resources-arzamas.svg" alt="Арзамас"></a>
+              <img class="resources__logo" src="images/logo/resources-arzamas.svg" alt="Арзамас"></a>
           </li>
 
           <li><a class="resources__logo-link" href="#">
-            <img class="resources__logo" src="/images/logo/resources-n1.svg" alt="н+1"></a>
+            <img class="resources__logo" src="images/logo/resources-n1.svg" alt="н+1"></a>
           </li>
 
           <li><a class="resources__logo-link" href="#">
-            <img class="resources__logo" src="/images/logo/resources-strelka.svg" alt="Стрелка"></a>
+            <img class="resources__logo" src="images/logo/resources-strelka.svg" alt="Стрелка"></a>
           </li>
 
           <li><a class="resources__logo-link" href="#">
-            <img class="resources__logo" src="/images/logo/resources-polka.svg" alt="Полка"></a>
+            <img class="resources__logo" src="./images/logo/resources-polka.svg" alt="Полка"></a>
           </li>
         </ul>
       </section>
@@ -271,7 +271,7 @@
               <img class="footer__social-icon" src="./images/vk_color_white.svg" alt="Лого ВКонтакте">Вконтакте</a></li>
             <li><a class="footer__column-link" href="#">
               <img class="footer__social-icon" src="./images/tiktok-icon.svg" alt="Лого ТикТок">TikTok</a></li>
-            </ul>
+          </ul>
         </nav>
       </div>
     </footer>
