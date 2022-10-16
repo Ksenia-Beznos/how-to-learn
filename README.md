@@ -53,8 +53,12 @@ ____
 ### :heavy_check_mark: _Вставка видео с использованием iframe_
 
 ```html
-<div class="video__iframe"><iframe id="ytplayer" type="text/html" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" frameborder="0" allowfullscreen></iframe></div>
-<div class="video__iframe"><iframe id="ytplayer" type="text/html" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" frameborder="0" allowfullscreen></iframe></div>
+<div class="video__iframes">
+
+  <div class="video__iframe"><iframe width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+  <div class="video__iframe"><iframe width="515" height="315" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+  
+</div>
 ```
 
 ### :heavy_check_mark: _Flexbox вёрстка_
