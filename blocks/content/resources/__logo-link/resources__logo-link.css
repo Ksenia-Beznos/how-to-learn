@@ -1,0 +1,11 @@
+.resources__logo-link {
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: .9s;
+  transition-timing-function: ease-out;
+  transition-delay: 0s;
+}
+
+.resources__logo-link:hover {
+  opacity: .5;
+}
