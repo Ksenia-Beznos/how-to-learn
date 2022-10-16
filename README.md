@@ -31,7 +31,7 @@ ____
 ## **КАКИЕ ТЕХНОЛОГИИ ИСПОЛЬЗОВАЛИСЬ?**
 
 
-### _Анимация элемента_
+### :heavy_check_mark: _Анимация элемента_
 
 ```css
 @keyframes figure-rotation {
@@ -50,14 +50,14 @@ ____
 }
 ```
 
-### _Вставка видео с использованием iframe_
+### :heavy_check_mark: _Вставка видео с использованием iframe_
 
 ```html
 <div class="video__iframe"><iframe id="ytplayer" type="text/html" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" frameborder="0" allowfullscreen></iframe></div>
 <div class="video__iframe"><iframe id="ytplayer" type="text/html" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" frameborder="0" allowfullscreen></iframe></div>
 ```
 
-### _Flexbox вёрстка_
+### :heavy_check_mark: _Flexbox вёрстка_
 
 ![Alt-Флекс](/images/Flexbox.png)
 
@@ -65,12 +65,17 @@ ____
 
 ## **ЧТО ЕЩЕ?**
 
-- :white_check_mark: Псевдокласс _:hover_ для ссылкок;
-- :white_check_mark: Тег _span_ для выделения фразы внутри строки;
-- :white_check_mark: Вставка _ссылок_ в текст;
-- :white_check_mark: Вставка _изображений_ (имиджевых и декоративных);
-- :white_check_mark: Использование _мнемоники_;
-- :white_check_mark: _Позиционирование_ элементов относительно блока и относительно друг друга;
+:white_check_mark: Псевдокласс _:hover_ для ссылкок;
+
+:white_check_mark: Тег _span_ для выделения фразы внутри строки;
+
+:white_check_mark: Вставка _ссылок_ в текст;
+
+:white_check_mark: Вставка _изображений_ (имиджевых и декоративных);
+
+:white_check_mark: Использование _мнемоники_;
+
+:white_check_mark: _Позиционирование_ элементов относительно блока и относительно друг друга;
 
 ____
 
